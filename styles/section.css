@@ -1,0 +1,42 @@
+.my-work {
+  padding: 72px 24px 144px 24px;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline: auto;
+  padding-top: 56px;
+  max-width: 1040px;
+  gap: 24px;
+}
+
+.card {
+  max-width: 330px;
+  max-height: 280px;
+  text-align: left;
+  background-color: var(--color-gray-400);
+  padding: 12px 12px 17px 12px;
+  border-radius: 12px;
+  border: 1.5px solid var(--color-bg);
+  cursor: pointer;
+}
+
+.card:hover {
+  border: 1.5px solid var(--color-gray-300);
+  cursor: pointer;
+}
+
+.card img {
+  border-radius: 8px;
+  max-width: 306px;
+}
+
+.card h4 {
+  padding-block: 24px 8px;
+}
+
+.card p {
+  color: var(--color-gray-200);
+}

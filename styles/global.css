@@ -63,3 +63,21 @@ h2 {
 h2 span {
   color: var(--color-red);
 }
+
+h3 {
+  font: var(--text-title-md);
+  color: var(--color-gray-100);
+}
+
+h4 {
+  font: var(--text-title-sm);
+  color: var(--color-gray-100);
+}
+
+p {
+  font: var(--text-sm);
+}
+
+.red-color {
+  color: var(--color-red);
+}
