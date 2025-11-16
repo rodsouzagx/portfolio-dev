@@ -40,3 +40,36 @@
 .card p {
   color: var(--color-gray-200);
 }
+
+.my-services {
+  background-color: var(--color-gray-600);
+  padding: 88px 24px 120px 24px;
+}
+
+.services {
+  padding-top: 56px;
+  display: flex;
+  justify-content: center;
+  max-width: 888px;
+  gap: 24px;
+  margin-inline: auto;
+}
+
+.card-service {
+  border: 2px solid var(--color-gray-500);
+  width: 280px;
+  padding: 20px;
+  height: 162px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.card-service p {
+  padding-top: 8px;
+  color: var(--color-gray-200);
+}
+
+.card-service img {
+  width: 48px;
+  padding-bottom: 20px;
+}
