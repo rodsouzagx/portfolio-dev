@@ -85,3 +85,13 @@ p {
 .red-color {
   color: var(--color-red);
 }
+
+.purple-color {
+  color: var(--color-purple);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-gray-300);
+  font: var(--text-md);
+}

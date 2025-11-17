@@ -57,13 +57,13 @@ h1 {
 p {
   font: var(--text-sm);
   color: var(--color-gray-300);
-  margin-bottom: 80px;
 }
 
 .hard-skills {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 80px;
   gap: 16px;
 }
 

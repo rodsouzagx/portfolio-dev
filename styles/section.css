@@ -14,7 +14,7 @@
 
 .card {
   max-width: 330px;
-  max-height: 280px;
+  height: 280px;
   text-align: left;
   background-color: var(--color-gray-400);
   padding: 12px 12px 17px 12px;
@@ -30,7 +30,7 @@
 
 .card img {
   border-radius: 8px;
-  max-width: 306px;
+  max-width: 304.5px;
 }
 
 .card h4 {
@@ -72,4 +72,63 @@
 .card-service img {
   width: 48px;
   padding-bottom: 20px;
+}
+
+section:nth-of-type(3) {
+  background-image: url(../assets/images/background/Background_Contacts.png);
+  height: 787px;
+  background-repeat: no-repeat;
+  padding-top: 128px;
+  background-size: contain;
+}
+
+section:nth-of-type(3) h3 {
+  padding-bottom: 8px;
+}
+
+section:nth-of-type(3) p {
+  font: var(--text-md);
+  color: var(--color-gray-200);
+}
+
+.networks {
+  max-width: 400px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+  gap: 16px;
+}
+
+.button {
+  padding: 20px;
+  background-color: var(--color-gray-400);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  border: 1.5px solid var(--color-gray-400);
+}
+
+.button p {
+  margin: 0;
+  padding: 0;
+  margin-left: 12px; /* Espaço entre o ícone e o texto */
+}
+
+.button img:last-of-type {
+  margin-left: auto;
+
+  /* Estilos para a seta */
+  width: 14px;
+  height: 14px;
+  opacity: 0.7; /* Deixa a seta um pouco mais sutil */
+}
+
+.button:hover {
+  border: 1.5px solid var(--color-blue);
+}
+
+.button:hover img {
+  filter: brightness(0) saturate(100%) invert(58%) sepia(21%) saturate(3069%) hue-rotate(177deg) brightness(91%)
+    contrast(92%);
 }
